@@ -1,12 +1,13 @@
-// import logo from './logo.svg';
-import './App.css';
-import { NavBarHeader } from './ui-components'
+import './App.css'; 
+import { StandardCardCollection, NavBarHeader, MarketingFooter } from './ui-components'
 
 
 function App() {
 return (
   <>
-    <NavBarHeader />
+    <NavBarHeader width="100%" marginBottom="100px" />
+    <StandardCardCollection  marginBottom="100px" />
+    <MarketingFooter />
   </>
 )
 
